@@ -1,7 +1,7 @@
 import React from 'react';
 import {cleanup, fireEvent, render, waitForElement} from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect'
-import App from './src/App.js'
+import App from '../App.js'
 
 afterEach(cleanup);
 
