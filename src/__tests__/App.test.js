@@ -6,7 +6,6 @@ import App from '../App.js'
 afterEach(cleanup);
 
 it('App.js: hello world가 상단에 노출된다', () => {
-    console.log(findBy);
     expect(true).toBeTruthy();
     const {queryByText} = render( <App />);
     expect(queryByText('hello world')).toBeInTheDocument();
